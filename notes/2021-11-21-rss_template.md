@@ -1,5 +1,5 @@
 ---
-date: 2021-11-21 00:44:00+8
+date: 2021-11-21 00:44:00
 title: RSS Feed xml格式模版与标签归纳
 category: 想法与笔记
 
@@ -17,8 +17,6 @@ copyright: true  # 暂不支持
 <!--more-->
 
 ## 模版
-
-这里主要借鉴了
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>
@@ -45,6 +43,8 @@ copyright: true  # 暂不支持
 
 </rss>
 ```
+
+这里主要借鉴了[XML RSS - W3School](https://www.w3schools.com/xml/xml_rss.asp)。
 
 ## 标签（字段）含义
 
@@ -92,7 +92,7 @@ copyright: true  # 暂不支持
 
 关于<![CDATA[]]>的作用，在Stack Overflow上有这样的解释
 
-> A CDATA section is "[a section of element content that is marked for the parser to interpret as only character data, not markup.](http://en.wikipedia.org/wiki/CDATA)"
+> A CDATA section is "a section of element content that is marked for the parser to interpret as only character data, not markup."
 >
 > -- [What does < ![CDATA[]] > in XML mean?](https://stackoverflow.com/questions/2784183/what-does-cdata-in-xml-mean)
 

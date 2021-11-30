@@ -1,5 +1,5 @@
 ---
-date: 2021-10-10 18:15:00+8   $MODIFY$
+date: 2021-10-10 18:15:00   $MODIFY$
 title: $MODIFY$
 category: 想法与笔记
 
