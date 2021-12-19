@@ -42,7 +42,7 @@ Fastforward Commit方式的执行是有条件的，如果master主分支与dev�
 
 ![上面情况无法执行fast-forward commit](https://z3.ax1x.com/2021/11/07/I1z9ts.png)
 
-# Squash Commit
+## Squash Commit
 
 与常规 commit类似，不过合并时候，会将dev开发分支看作一次整体的commit合并到master主分支上，主分支会产生新的合并commit。
 
@@ -52,7 +52,7 @@ Fastforward Commit方式的执行是有条件的，如果master主分支与dev�
 
 ![Squash合并后删除dev分支后的分支状态](https://z3.ax1x.com/2021/11/07/I1zTDU.png)
 
-# Rebase
+## Rebase
 
 前面三种都是Merge形式的合并，Rebase与Merge有本质的不同，Merge只会产生新的commit，不会对commit历史进行修改，但Rebase会对commit历史的部分链条进行修改。
 
